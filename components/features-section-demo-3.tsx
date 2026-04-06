@@ -31,13 +31,8 @@ export default function FeaturesSectionDemo() {
       className:
         "col-span-1 lg:col-span-3 lg:border-r  dark:border-neutral-800",
     },
-    {
-      title: "Deploy in seconds",
-      description:
-        "With our blazing fast, state of the art, cutting edge, we are so back cloud servies (read AWS) - you can deploy your model in seconds.",
-      skeleton: <SkeletonFour />,
-      className: "col-span-1 lg:col-span-3 border-b lg:border-none",
-    },
+    
+
   ];
   return (
     <div className="relative z-20 mx-auto max-w-7xl py-10 lg:py-40">

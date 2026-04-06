@@ -175,46 +175,12 @@ export const SkeletonTwo = () => {
       {/* TODO */}
       <div className="-ml-20 flex flex-row">
         {images.map((image, idx) => (
-          <motion.div
-            variants={imageVariants}
-            key={"images-first" + idx}
-            style={{
-              rotate: Math.random() * 20 - 10,
-            }}
-            whileHover="whileHover"
-            whileTap="whileTap"
-            className="mt-4 -mr-4 shrink-0 overflow-hidden rounded-xl border border-neutral-100 bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800"
-          >
-            <img
-              src={image}
-              alt="bali images"
-              width="500"
-              height="500"
-              className="h-20 w-20 shrink-0 rounded-lg object-cover md:h-40 md:w-40"
-            />
-          </motion.div>
+
         ))}
       </div>
       <div className="flex flex-row">
         {images.map((image, idx) => (
-          <motion.div
-            key={"images-second" + idx}
-            style={{
-              rotate: Math.random() * 20 - 10,
-            }}
-            variants={imageVariants}
-            whileHover="whileHover"
-            whileTap="whileTap"
-            className="mt-4 -mr-4 shrink-0 overflow-hidden rounded-xl border border-neutral-100 bg-white p-1 dark:border-neutral-700 dark:bg-neutral-800"
-          >
-            <img
-              src={image}
-              alt="bali images"
-              width="500"
-              height="500"
-              className="h-20 w-20 shrink-0 rounded-lg object-cover md:h-40 md:w-40"
-            />
-          </motion.div>
+
         ))}
       </div>
 

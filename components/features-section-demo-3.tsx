@@ -173,22 +173,15 @@ export const SkeletonTwo = () => {
   return (
     <div className="relative flex h-full flex-col items-start gap-10 overflow-hidden p-8">
       {/* TODO */}
-      <div className="-ml-20 flex flex-row">
-        {images.map((image, idx) => (
 
-        ))}
-      </div>
-      <div className="flex flex-row">
-        {images.map((image, idx) => (
 
-        ))}
       </div>
 
-      <div className="pointer-events-none absolute inset-y-0 left-0 z-[100] h-full w-20 bg-gradient-to-r from-white to-transparent dark:from-black" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 z-[100] h-full w-20 bg-gradient-to-l from-white to-transparent dark:from-black" />
-    </div>
+
+
   );
 };
+
 
 
 
